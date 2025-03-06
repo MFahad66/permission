@@ -20,6 +20,7 @@
                         </div>
                     @endif
                     
+                    
                     <!-- Add Role Button -->
                     <div class="mb-4">
                         <a href="{{ route('roles.create') }}" class="inline-flex items-center px-4 py-2 bg-indigo-600 text-white rounded-md shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">

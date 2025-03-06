@@ -13,6 +13,7 @@
                     <form action="{{ route('roles.update', $role->id) }}" method="POST">
                         @csrf
                         @method('POST')
+                        
                         <div class="grid grid-cols-4 gap-4">
                             <!-- Label and input field for Role Name -->
                             <div class="col-span-4 sm:col-span-1">
